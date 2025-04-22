@@ -135,8 +135,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
-            "ImageSecondaryURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+            "ImageURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/The_Wind_That_Shudders_The_Land_SpiritBoard.png?raw=true",
+            "ImageSecondaryURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/The_Wind_That_Shudders_the_Land_SpiritLore.png?raw=true",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -197,8 +197,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
-            "ImageSecondaryURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+            "ImageURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/The_Wind_That_Shudders_The_Land_SpiritBoard.png?raw=true",
+            "ImageSecondaryURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/The_Wind_That_Shudders_the_Land_SpiritLore.png?raw=true",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -354,8 +354,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "457": {
-              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Eye%20of%20the%20Storm.PNG?raw=true",
-              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Eye_of_the_Storm_PowerCard.png?raw=true",
+              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Tornado_BackImage.png?raw=true",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -416,8 +416,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "457": {
-              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Sweep%20Them%20Off%20Their%20Feet.PNG?raw=true",
-              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Sweep_Them_Off_Their_Feet_PowerCard.png?raw=true",
+              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Tornado_BackImage.png?raw=true",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -478,8 +478,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "457": {
-              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/The%20Shifting%20Winds.PNG?raw=true",
-              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/The_Shifting_Winds_PowerCard.png?raw=true",
+              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Tornado_BackImage.png?raw=true",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -540,8 +540,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "457": {
-              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Winds%20of%20Warding.PNG?raw=true",
-              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/artwork/Wind_Card_Back.PNG?raw=true",
+              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Winds_of_Warding_PowerCard.png?raw=true",
+              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/tornado/tts/images/Tornado_BackImage.png?raw=true",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
