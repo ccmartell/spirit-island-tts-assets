@@ -210,7 +210,7 @@
             }
           },
           "LuaScript": "-- Spirit Panel for MJ & iakona's Spirit Island Mod --\nuseProgression = false\nuseAspect = 2\n\nfunction onLoad(saved_data)\n    Color.Add(\"SoftBlue\", Color.new(0.53,0.92,1))\n    Color.Add(\"SoftYellow\", Color.new(1,0.8,0.5))\n    getObjectFromGUID(\"SourceSpirit\").call(\"load\", {obj = self, saved_data = saved_data})\nend",
-          "LuaScriptState": "{\"bonusEnergy\":[],\"thresholds\":[{\"elements\":\"02000000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.4257}},{\"elements\":\"00020000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.5465}},{\"elements\":\"00000000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.6673}},{\"elements\":\"05040000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.783}},{\"elements\":\"00020001\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.4231}},{\"elements\":\"00030002\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.5388}},{\"elements\":\"02040002\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.6544}}],\"trackElements\":[{\"elements\":\"01000000\",\"position\":{\"x\":-0.2753,\"y\":0,\"z\":-0.407}},{\"elements\":\"00010000\",\"position\":{\"x\":-0.503,\"y\":0,\"z\":-0.0773}}],\"trackEnergy\":[{\"count\":5,\"position\":{\"x\":-1.1861,\"y\":0,\"z\":-0.407}},{\"count\":4,\"position\":{\"x\":-0.7307,\"y\":0,\"z\":-0.407}},{\"count\":3,\"position\":{\"x\":-0.503,\"y\":0,\"z\":-0.407}},{\"count\":2,\"position\":{\"x\":-0.0476,\"y\":0,\"z\":-0.407}},{\"count\":1,\"position\":{\"x\":0.1801,\"y\":0,\"z\":-0.407}}]}",
+          "LuaScriptState": "{\"bonusEnergy\":[],\"thresholds\":[{\"elements\":\"02000000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.4257}},{\"elements\":\"00020000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.5465}},{\"elements\":\"00000000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.6673}},{\"elements\":\"05040000\",\"position\":{\"x\":0.35,\"y\":0,\"z\":0.783}},{\"elements\":\"00020001\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.5001}},{\"elements\":\"00030002\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.6184}},{\"elements\":\"02040002\",\"position\":{\"x\":-0.5574,\"y\":0,\"z\":0.734}}],\"trackElements\":[{\"elements\":\"01000000\",\"position\":{\"x\":-0.2753,\"y\":0,\"z\":-0.407}},{\"elements\":\"00010000\",\"position\":{\"x\":-0.503,\"y\":0,\"z\":-0.0773}}],\"trackEnergy\":[{\"count\":6,\"position\":{\"x\":-1.1861,\"y\":0,\"z\":-0.407}},{\"count\":5,\"position\":{\"x\":-0.7307,\"y\":0,\"z\":-0.407}},{\"count\":4,\"position\":{\"x\":-0.503,\"y\":0,\"z\":-0.407}},{\"count\":3,\"position\":{\"x\":-0.2753,\"y\":0,\"z\":-0.407}},{\"count\":2,\"position\":{\"x\":-0.0476,\"y\":0,\"z\":-0.407}},{\"count\":1,\"position\":{\"x\":0.1801,\"y\":0,\"z\":-0.407}}]}",
           "XmlUI": "",
           "AttachedSnapPoints": [
             {
@@ -412,8 +412,8 @@
               "Type": 0
             }
           },
-          "LuaScript": "elements=\"01100001\"\nenergy=2\n",
-          "LuaScriptState": "{\"thresholds\":[]}",
+          "LuaScript": "elements=\"01100001\"\nenergy=1\nfunction onLoad(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        self.setTable(\"thresholds\", loaded_data.thresholds)\n    end\nend\n-- card loading end",
+          "LuaScriptState": "{\"thresholds\":[{\"elements\":\"00000003\",\"position\":{\"x\":0.1324,\"y\":0,\"z\":1.0123}}]}",
           "XmlUI": ""
         },
         {
@@ -538,6 +538,67 @@
           },
           "LuaScript": "elements=\"01110100\"\nenergy=2\n",
           "LuaScriptState": "{\"thresholds\":[]}",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "On_Death's_Door",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -38.7473373,
+            "posY": 0.8167039,
+            "posZ": 83.8556442,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1.53,
+            "scaleY": 1,
+            "scaleZ": 1.53
+          },
+          "Nickname": "On Death's Door-Death",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ColorDiffuse": {
+            "r": 0.7132,
+            "g": 0.7132,
+            "b": 0.7132
+          },
+          "Tags": [
+            "Aspect"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": false,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 248300,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2483": {
+              "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/death/tts/images/On_Death's_Door_Aspect.png?raw=true",
+              "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/death/tts/images/On_Death's_Door_AspectBack.png?raw=true",
+              "NumWidth": 1,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "function onLoad(saved_data)\n    if saved_data ~= \"\" then\n        local loaded_data = JSON.decode(saved_data)\n        self.setTable(\"thresholds\", loaded_data.thresholds)\n    end\nend\n-- card loading end",
+          "LuaScriptState": "{\"thresholds\":[{\"elements\":\"02020002\",\"position\":{\"x\":1.0141,\"y\":0,\"z\":-0.4196}},{\"elements\":\"02030003\",\"position\":{\"x\":1.0141,\"y\":0,\"z\":-0.1335}},{\"elements\":\"03040003\",\"position\":{\"x\":1.0141,\"y\":0,\"z\":0.1525}},{\"elements\":\"04050004\",\"position\":{\"x\":1.0141,\"y\":0,\"z\":0.4385}}]}",
           "XmlUI": ""
         }
       ]
