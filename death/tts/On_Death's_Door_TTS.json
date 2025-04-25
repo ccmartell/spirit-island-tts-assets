@@ -64,8 +64,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "2483": {
-          "FaceURL": "https://i.imgur.com/jR8jpcD.png",
-          "BackURL": "https://i.imgur.com/oipNles.png",
+          "FaceURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/death/tts/images/On_Death's_Door_Aspect.png?raw=true",
+          "BackURL": "https://github.com/ccmartell/spirit-island-tts-assets/blob/main/death/tts/images/On_Death's_Door_AspectBack.png?raw=true",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
